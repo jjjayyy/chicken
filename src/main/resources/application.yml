@@ -1,0 +1,5 @@
+server.port : 7777
+spring :
+  h2 :
+    console :
+      enabled : true
