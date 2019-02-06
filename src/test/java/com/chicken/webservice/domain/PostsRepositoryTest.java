@@ -53,6 +53,8 @@ public class PostsRepositoryTest {
         LocalDateTime now = LocalDateTime.now();
         postsRepository.save(Posts.builder()
                 .title("테스트 게시글")
+
+
                 .content("테스트 본문")
                 .author("jay")
                 .build());
